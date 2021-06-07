@@ -1,0 +1,33 @@
+.login {
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.login::before {
+  content: '';
+  display: block;
+
+  background: url('../../assests/bg.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.login .container {
+  width: 100%;
+  padding-top: 6rem;
+}
+
+@media (max-width: 48rem) {
+  .login {
+    grid-template-columns: 1fr;
+  }
+
+  .login::before {
+    display: none;
+  }
+  .forms {
+    max-width: 100%;
+  }
+}

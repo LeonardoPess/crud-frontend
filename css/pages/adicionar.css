@@ -1,0 +1,13 @@
+.adicionar {
+  min-height: 100vh;
+  padding-top: 4rem;
+
+  background: url('../../assests/bg3.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 48rem) {
+  .adicionar{
+    padding-top: 1rem;
+  }
+}

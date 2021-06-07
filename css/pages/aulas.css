@@ -1,0 +1,76 @@
+.aulas {
+  min-height: 100vh;
+
+  background: url('../../assests/bg2.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.header-aulas {
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 2px solid #666;
+}
+
+.aulas-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aula-single {
+  width: calc(25% - 2rem);
+  min-width: 16rem;
+
+  padding: 2rem;
+  margin: 1rem;
+
+  text-align: center;
+  background: var(--yellow);
+  border-radius: .4rem;
+  box-shadow: 0 0 6px 2px rgba(0,0,0,.2);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.aula-single:hover{
+  box-shadow: 0 0 0 3px rgb(255, 255, 255), 0 0 0 4px var(--orange);
+  transform: scale(1.1);
+}
+
+.aula-single h2{
+  margin-bottom: 1rem;
+}
+
+.aula-single h2::after{
+  content: '';
+  width: 100%;
+  height: 2px;
+
+  display: block;
+  background: rgba(100, 100, 100, .8);
+}
+
+.aula-single p{
+  margin-bottom: .5rem;
+}
+
+.aula-single span{
+  font-size: .85rem;
+  color: rgba(80, 80, 80, .8);
+}
+
+@media (max-width: 64rem) {
+  .aulas-wrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 31rem) {
+  .button-wrapper {
+    width: 100%;
+    padding: 2rem 0;
+  }
+}

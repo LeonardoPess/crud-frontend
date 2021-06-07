@@ -1,0 +1,9 @@
+@import './base/fonts.css';
+@import './abstracts/variables.css';
+@import './geral.css';
+@import './base/animations.css';
+@import './components/form.css';
+@import './pages/login.css';
+@import './pages/aulas.css';
+@import './pages/adicionar.css';
+@import './pages/editar.css';

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!--// title //-->
+  <title>Aulas | Tindin Class</title>
+  <!--// metas //-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--// links //-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="animeLeft adicionar">
+    <div class="container">
+      <h1 class="title">Adicionar uma nova aula</h1>
+      <form id="form-adicionar">
+        <p class="error" data-error="error"></p>
+        <label class="label" for="nome">Nome da aula</label>
+        <input class="input" type="text" id="nome" name="nome"  />
+        <p class="error" data-error="nome"></p>
+        <label class="label" for="descricao">Descrição da aula</label>
+        <textarea class="input" id="descricao" name="descricao"></textarea>
+        <p class="error" data-error="descricao"></p>
+        <button class="button cancelar" id="cancelar">Cancelar</button>
+        <button class="button" id="enviar">Cadastrar</button>
+      </form>
+    </div>
+  </section>
+
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

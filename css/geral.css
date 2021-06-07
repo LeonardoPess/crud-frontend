@@ -1,0 +1,91 @@
+/*// Reset //*/
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: var(--gray);
+  font-family: var(--type-first);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button, input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
+  color: var(--gray);
+}
+
+.container {
+  max-width: 80rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+/*// Title //*/
+
+.title {
+  font-family: var(--type-second);
+  line-height: 1;
+  font-size: 3rem;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.title::after {
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  left: -5px;
+
+  background: var(--pink);
+  border-radius: .2rem;
+  z-index: -1;
+}
+
+.aulas .title::after {
+  background: var(--green);
+}
+
+@media (max-width: 48rem) {
+  .editar .title,
+  .aulas .title,
+  .adicionar .title {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+/*// Error //*/
+
+.error {
+  margin-top: .25rem;
+  display: none;
+
+  color: #f31;
+  font-size: .875rem;
+}

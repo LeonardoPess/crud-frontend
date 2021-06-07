@@ -1,0 +1,98 @@
+form {
+  margin: 2rem 0;
+}
+
+.input {
+  width: 100%;
+
+  display: block;
+  padding: .8rem;
+
+  font-size: 1rem;
+  border: 1px solid #eee;
+  border-radius: .4rem;
+  background: #eee;
+  transition: .2s;
+}
+
+.input:hover,
+.input:focus {
+  outline: none;
+  border-color: var(--orange);
+  background: var(--white);
+  box-shadow: 0 0 0 3px var(--yellow);
+}
+
+textarea {
+  min-height: 10rem;
+  resize: vertical;
+}
+
+.label {
+  display: block;
+  padding-bottom: .5rem;
+  margin-top: 2rem;
+
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.button {
+  min-width: 8rem;
+
+  padding: .8rem 1.2rem;
+  box-sizing: border-box;
+  margin-top: 2rem;
+
+  font-size: 1rem;
+  font-family: var(--type-first);
+  cursor: pointer;
+  border: none;
+  border-radius: .4rem;
+  background: var(--orange);
+  color: #764701;
+  transition: .1s;
+}
+
+.button:hover,
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--yellow), 0 0 0 4px var(--orange);
+}
+
+.button.cancelar {
+  color: var(--gray);
+  background: rgb(209, 207, 207);
+}
+
+.button.cancelar:hover,
+.button.cancelar:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px  rgb(245, 242, 242), 0 0 0 4px var(--gray);
+}
+
+.button.excluir {
+  color: rgb(230, 230, 230);
+  background: #ff1111;
+}
+
+.button.excluir:hover,
+.button.excluir:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px  var(--pink), 0 0 0 4px #ff1111;
+}
+
+.button:disabled {
+  opacity: .5;
+  cursor: wait;
+}
+
+.adicionar .button {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.editar .button {
+  display: inline-block;
+  margin-right: 2rem;
+}
