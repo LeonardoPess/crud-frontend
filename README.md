@@ -1,34 +1,35 @@
-# crud-frontend
-Crud frontend with html, css and js!
+<h1 align="center">
+  <a href="https://leonardopess.github.io/crud-frontend/" target="_blank">
+    CRUD
+  </a>
+</h1>
 
-Login area:
+<p align="center"><b>CRUD</b> desenvolvido com HTML, CSS E JAVASCRIPT, com login fazendo fetch em uma API, adiciões de aulas, listagem, edição e exclusão!</p>
 
-If the API returns OK, its can login, otherwise the login is wrong.
+<p align="center">
+   <a href="https://www.linkedin.com/in/leonardo-pessoa-5733121b5/">
+      <img alt="Leonardo Pessoa" src="https://img.shields.io/badge/-Leonardo Pessoa-4e5acf?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  
+  <a href="https://github.com/LeonardoPess">
+    <img alt="Made by Leonardo Pessoa" src="https://img.shields.io/badge/made%20by-Leonardo%20Pessoa-5965e0">
+  </a>
 
-<div style="margin: 0 auto; text-align: center">
-  <img style="width: 100px; height: 100px" src="login-tindin.png">
-</div>
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/LeonardoPess/crud-frontend?color=rgb(89,101,224)%22">
 
-Classes:
+  <img alt="Contributors" src="https://img.shields.io/github/contributors/LeonardoPess/crud-frontend?color=rgb(89,101,224)">
 
-List of all registered classes!
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361?color=rgb(89,101,224)">
+</p>
 
-<div style="margin: 0 auto; text-align: center">
-  <img style="width: 100px; height: 100px" src="classes.png">
-</div>
+<p align="center">
+  <img src="login-tindin.png">
+  <img src="classes.png">
+  <img src="adicionar-aula.png">
+  <img src="edit-classes.png">
+</p>
 
-Register:
+<p align="center">Um CRUD feito para um vaga de emprego, onde eu consegui fazer um fetch para um API para fazer a função de login, criei um design simples e amigável, e desenvolvi as funções de listagem, adição, edição e exclusão. Colocando bastante aprendizados em prática!</p>
 
-Register the classes!
-
-<div style="margin: 0 auto; text-align: center">
-  <img style="width: 100px; height: 100px" src="adicionar-aula.png">
-</div>
-
-Edit or delete:
-
-Edit or delete the classes!
-
-<div style="margin: 0 auto; text-align: center">
-  <img style="width: 100px; height: 100px" src="edit-classes.png">
-</div>
+## Demo
+https://leonardopess.github.io/crud-frontend/
